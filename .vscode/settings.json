@@ -1,0 +1,18 @@
+{
+    "files.exclude": {
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true,
+        "**/.classpath": true
+    },
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "antlr4.referencesCodeLens.enabled": true,
+    "antlr4.generation": {
+        "mode": "external",
+        "language": "Java",
+        "listeners": true,
+        "visitors": true,
+        "package": "jcc.grammar",
+        "outputDir": "../java/jcc/grammar"
+    }
+}
