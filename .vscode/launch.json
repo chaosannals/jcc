@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "jcc.rows.Main",
+            "projectName": "jcc"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Grun",
             "request": "launch",
             "mainClass": "jcc.operation.Grun",
