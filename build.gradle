@@ -11,6 +11,7 @@ dependencies {
     implementation 'org.antlr:antlr4:4.7.2'
     implementation 'org.antlr:antlr4-runtime:4.7.2'
     implementation 'com.github.jnr:jnr-posix:3.0.51'
+    implementation 'org.eclipse.jetty:jetty-server:9.4.8.v20171121'
     testImplementation 'junit:junit:4.12'
 }
 

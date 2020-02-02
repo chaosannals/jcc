@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "web.Main",
+            "projectName": "jcc"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - SectorTest",
             "request": "launch",
             "mainClass": "phys.SectorTest",
