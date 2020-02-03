@@ -1,6 +1,7 @@
 plugins {
     id 'java'
     id 'application'
+    id 'org.openjfx.javafxplugin' version '0.0.8'
 }
 
 repositories {
@@ -8,13 +9,21 @@ repositories {
 }
 
 dependencies {
+    implementation 'org.openjfx:javafx-controls:13.0.2'
+    implementation 'org.openjfx:javafx-fxml:13.0.2'
     implementation 'org.antlr:antlr4:4.7.2'
     implementation 'org.antlr:antlr4-runtime:4.7.2'
     implementation 'com.github.jnr:jnr-posix:3.0.51'
     implementation 'org.eclipse.jetty:jetty-server:9.4.8.v20171121'
+    implementation 'org.json:org.json:2.0'
     testImplementation 'junit:junit:4.12'
 }
 
 application {
     mainClassName = 'jcc.App'
+}
+
+javafx {
+    version = "13"
+    modules = [ 'javafx.controls', 'javafx.fxml' ]
 }
